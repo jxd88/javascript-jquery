@@ -1,0 +1,77 @@
+.head1{
+	display: block;
+}
+.container{
+	display: block;
+	background-color: #666;
+	margin: auto;
+	height: 960px;
+	width: 960px;
+	font-size: 0;
+}
+.unit{
+	background-color: #f3f3f3;
+	display: inline-block;
+	padding:0;
+	margin: 0;
+	border: 1px solid #666;
+}
+#button1, #button2{
+
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ebebeb 50%,
+		#dbdbdb 50%,
+		#b5b5b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ebebeb),
+		color-stop(0.50, #dbdbdb),
+		to(#b5b5b5));
+	border-radius: 10px;
+	border: 1px solid #949494;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+		
+
+}
+.head3{
+display: inline-block;
+position: relative;
+}
+h1{
+text-align: center;
+
+}
+.head2{
+background-color: #efefef;
+width: 50%;
+margin: auto;
+}
+.but1{
+	position: relative;
+	top:-40px;
+	left:80px;
+}
+.but2{
+	position: relative;
+	top:-20px;
+	left:98px;
+}
+.header{
+	display: block;
+}
+.buttons{
+display: inline-block;
+width: 50%;
+}
